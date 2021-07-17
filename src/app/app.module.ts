@@ -9,6 +9,7 @@ import { DetailsComponent } from './details/details.component';
 import { AddComponent } from './add/add.component';
 import { PlatesDirective } from './plates.directive';
 import { HighlighterDirective } from './highlighter.directive';
+import { DateDifferencePipe } from './date-difference.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HighlighterDirective } from './highlighter.directive';
     DetailsComponent,
     AddComponent,
     PlatesDirective,
-    HighlighterDirective
+    HighlighterDirective,
+    DateDifferencePipe
   ],
   imports: [
     BrowserModule,
