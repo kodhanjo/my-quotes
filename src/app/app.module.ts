@@ -7,6 +7,8 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { PlatesComponent } from './plates/plates.component';
 import { DetailsComponent } from './details/details.component';
 import { AddComponent } from './add/add.component';
+import { PlatesDirective } from './plates.directive';
+import { HighlighterDirective } from './highlighter.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AddComponent } from './add/add.component';
     QuotesComponent,
     PlatesComponent,
     DetailsComponent,
-    AddComponent
+    AddComponent,
+    PlatesDirective,
+    HighlighterDirective
   ],
   imports: [
     BrowserModule,
