@@ -7,9 +7,9 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { PlatesComponent } from './plates/plates.component';
 import { DetailsComponent } from './details/details.component';
 import { AddComponent } from './add/add.component';
-import { PlatesDirective } from './plates.directive';
-import { HighlighterDirective } from './highlighter.directive';
-import { DateDifferencePipe } from './date-difference.pipe';
+import { PlatesDirective } from './directive/plates.directive';
+import { HighlighterDirective } from './directive/highlighter.directive';
+import { DateDifferencePipe } from './pipe/date-difference.pipe';
 
 @NgModule({
   declarations: [
