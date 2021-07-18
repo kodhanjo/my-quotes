@@ -8,6 +8,7 @@ import { QuotesAddComponent } from './add/add.component';
 import { DateDifferencePipe } from './pipe/date-difference.pipe';
 import { HighlighterDirective } from './directive/highlighter.directive';
 import { FormsModule } from '@angular/forms';
+import { QouteDirective } from './qoute.directive';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     QuotesAddComponent,
     DateDifferencePipe,
     HighlighterDirective,
+    QouteDirective,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],

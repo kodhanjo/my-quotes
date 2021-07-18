@@ -4,8 +4,8 @@ import * as moment from 'moment';
 
 @Component({
   selector: 'app-quotes-main',
-  templateUrl: './quotes-main.component.html',
-  styleUrls: ['./quotes-main.component.scss'],
+  templateUrl: '../quotes-m/quotes.component.html',
+  styleUrls: ['../quotes-m/quotes.component.css'],
 })
 export class QuotesMainComponent implements OnInit {
   quotesObj: { quote: string; author: string }[] = [
@@ -42,7 +42,7 @@ export class QuotesMainComponent implements OnInit {
     this.quotesObj.map((element) =>
       this.quotes.push(
         new Quotes(
-          'Felix O.',
+          'Kodhanjo O.',
           element.quote,
           element.author,
           moment('2008-10-10')
