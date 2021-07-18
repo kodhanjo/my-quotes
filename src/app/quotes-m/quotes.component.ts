@@ -16,8 +16,8 @@ export class QuotesMainComponent implements OnInit {
     },
     {
       quote:
-        'Whatever the mind of man can conceive and believe, it can achieve.',
-      author: 'Napoleon Hill',
+        'Imagine Your Life Is Perfect In Every Respect; What Would It Look Like?',
+      author: 'Brian Tracy',
     },
     {
       quote: 'We May Encounter Many Defeats But We Must Not Be Defeated.',
@@ -33,8 +33,8 @@ export class QuotesMainComponent implements OnInit {
       author: 'Florence Nightingale',
     },
     {
-      quote: 'You miss 100% of the shots you don’t take.',
-      author: 'Wayne Gretzky',
+      quote: 'We Generate Fears While We Sit. We Overcome Them By Action.',
+      author: 'Dr. Henry Link',
     },
   ];
   quotes: Quotes[] = [];
