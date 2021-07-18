@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Quotes } from '../Boilerplates/Quote';
-import * as moment from 'moment';
+import { Quotes } from '../boiler/Quote';
+// import * as moment from 'moment';
 
 @Component({
   selector: 'app-quotes-main',
@@ -20,8 +20,8 @@ export class QuotesMainComponent implements OnInit {
       author: 'Napoleon Hill',
     },
     {
-      quote: 'Strive not to be a success, but rather to be of value.',
-      author: 'Albert Einstein',
+      quote: 'We May Encounter Many Defeats But We Must Not Be Defeated.',
+      author: 'Maya Angelou',
     },
     {
       quote:
@@ -42,7 +42,7 @@ export class QuotesMainComponent implements OnInit {
     this.quotesObj.map((element) =>
       this.quotes.push(
         new Quotes(
-          'Lennox O.',
+          'Felix O.',
           element.quote,
           element.author,
           moment('2008-10-10')

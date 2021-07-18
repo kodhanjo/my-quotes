@@ -32,11 +32,11 @@ import { DateDifferencePipe } from './pipe/date-difference.pipe';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { QuotesMainComponent } from './quotes-main/quotes-main.component';
+import { QuotesMainComponent } from './quotes-main/main.component';
 import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
 import { QuotesAddComponent } from './quotes-add/quotes-add.component';
-import { DateDifferencePipe } from './Pipes/DateDifference/date-difference.pipe';
-import { HighlighterDirective } from './Directives/Highlighter/highlighter.directive';
+import { DateDifferencePipe } from './pipe/date-difference.pipe';
+import { HighlighterDirective } from './directive/highlighter.directive';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({

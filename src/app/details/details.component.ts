@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Quotes } from '../Boilerplates/Quote';
+import { Quotes } from '../boiler/Quote';
 
 @Component({
   selector: 'app-quotes-details',
